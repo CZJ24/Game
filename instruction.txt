@@ -1,0 +1,15 @@
+The game is played using twelve black and twelve white cards numbered from 0 to 11 on one side. 
+for example, black card: *1* white card: 
+Initially all the cards are laid face down on the table.
+Both the player and the computer choose three cards randomly£¬
+and then arranges them in growing order with the smallest number on the left to make the code. 
+If the code contains the same number twice, the black card is always considered as smaller than the white one. 
+The player get a new card randomly from the remaining cards,
+looking at it and proposing a value for one of the hidden cards in the computer code.
+If the proposed value is not correct, the player must reveal the card 
+and insert it at the correct place within his own code giving consequently information about the code.
+If the proposed value was correct the computer must reveal the matching card in his code,and 
+the player decides go on proposing values for hidden computer's cards until player either guesses incorrecttly or decides to stop.
+When the player decides to stop, 
+inserts the drawn card without revealing it at the correct place in the code making consequently the code longer. 
+Then the computer will repeat the player's action.A player loses the game once the code is completely revealed.
